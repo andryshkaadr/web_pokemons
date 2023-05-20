@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma";
+}
+h1, h2, h3, h4, h5, h6, ul, li, a, div, span, input {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma";
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+body {
+    background-color: #E5E3E4;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.search-field {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+input {
+    padding-left: 15px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.users-list {
+    margin-top: 30px;
+}
+
+li {
+    border-radius: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center ;
+    height: 50px;
+}
+
+li:hover {
+    background-color: #BBC6C8;
+}
+
+.name {
+    font-size: 16px;
+    min-width: 100px;
+}
+.name::first-letter {
+    text-transform: uppercase;
+}
+
+.delete-button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
+    background-color: #be012a; 
+    color: #fff;
+    cursor: pointer;
+}
